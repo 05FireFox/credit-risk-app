@@ -3,7 +3,7 @@
 ## Project Overview
 Credit risk modeling is crucial for financial institutions to assess the likelihood of a borrower defaulting on a loan. This project involves analyzing multiple datasets to identify factors influencing credit risk, ultimately leading to better decision-making processes. The project provides a credit risk assessment system powered by machine learning. It evaluates borrowers' default risk, calculates credit scores, and assigns credit ratings. The project is built using Python and Streamlit, providing an interactive and user-friendly interface.
 
-[**Web Link**](https://credit-risk-modeling-lauki-finance.streamlit.app/)
+[**Web Link**](https://credit-risk-app-at5kz82qpafo7gjtcjrkfy.streamlit.app/)
 
 ## Default Risk Prediction: Model Evaluation and Deployment
 
@@ -26,14 +26,6 @@ This project aims to develop a machine learning model to predict default risk, e
   - AUC: 0.98
   - Gini Coefficient: 0.97
   - KS Statistic: 86.87%
-- **Interpretability Tools**:
-  - SHAP (feature importance)
-
-    ![FI](https://github.com/nafiul-araf/Credit-Risk-Modeling-End-to-End-Project/blob/main/images/Feature%20importance.png)
-
-  - LIME (local interpretability)
-
-    ![lime](https://github.com/nafiul-araf/Credit-Risk-Modeling-End-to-End-Project/blob/main/images/Lime.JPG)
 
 ### Key Results
 - The model demonstrates superior ability to classify defaults with high precision and recall.
@@ -47,8 +39,6 @@ This project aims to develop a machine learning model to predict default risk, e
 
 ### Visualizations
 1. AUC-ROC curve with near-perfect performance (AUC: 0.99).
-
-   ![rocauc](https://github.com/nafiul-araf/Credit-Risk-Modeling-End-to-End-Project/blob/main/images/ROC%20Curve.png)
    
 2. SHAP summary plot illustrating top features influencing predictions.
 
@@ -72,24 +62,6 @@ This project aims to develop a machine learning model to predict default risk, e
 - **Interactive Credit Risk Assessment**: Input borrower and loan details and get real-time predictions.
 - **Advanced Machine Learning**: Uses a fine-tuned XGBoost model for robust and accurate predictions.
 - **Scalable Design**: Modular structure with reusable utilities and hyperparameter tuning.
-
----
-
-## **Project Directory Structure**
-
-```
-project-root/
-│
-├── model/
-│   ├── model_data.pkl                # Serialized machine learning model and preprocessing data
-│   ├── tuned_hyperparameters.txt    # Details of the optimized hyperparameters
-│
-├── Lauki Finance.JPG                # Project logo or related image
-├── Readme.md                        # Documentation file
-├── main.py                          # Streamlit application file
-├── requirements.txt                 # List of required Python packages
-├── utils.py                         # Utility functions for prediction and preprocessing
-```
 
 ---
 
@@ -155,12 +127,3 @@ All dependencies are listed in `requirements.txt` for easy installation.
 
 ---
 
-## **Example Screenshots**
-1. **Home Page**: Displays the project title and input interface.
-2. **Results Page**: Shows default probability, credit score, and rating with actionable insights.
-
-![image](https://github.com/user-attachments/assets/d1b51282-cf2a-4e9a-ab19-fbe407b425ba)
-
-
-
----
